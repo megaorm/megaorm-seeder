@@ -1,0 +1,36 @@
+{
+  "name": "@megaorm/seeder",
+  "version": "1.0.0",
+  "description": "This package allows you to seed data into your database tables in MegaORM.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-seeder.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm-seeder",
+    "seeder",
+    "seeding",
+    "database-seeder",
+    "database",
+    "megaorm"
+  ],
+  "dependencies": {
+    "@megaorm/builder": "^1.0.0",
+    "@megaorm/faker": "^1.0.0",
+    "@megaorm/test": "^1.2.0"
+  }
+}
